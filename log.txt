@@ -1,0 +1,13 @@
+HP@DESKTOP-8LAIJDG MINGW64 /d/MyRepository (master)
+$ git log
+commit e8c579fbd07c295dfcd3ea631681936459845177 (HEAD -> master)
+Author: Oleg <alegg@ukr.net>
+Date:   Tue Feb 2 09:02:54 2021 +0200
+
+    add status.txt
+
+commit 34d7bbae01ddcd75f105ff71212fe062e469c375
+Author: Oleg <alegg@ukr.net>
+Date:   Tue Feb 2 08:57:09 2021 +0200
+
+    add .gitignore
