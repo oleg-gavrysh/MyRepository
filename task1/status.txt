@@ -23,3 +23,14 @@ Untracked files:
         task1/
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+
+HP@DESKTOP-8LAIJDG MINGW64 /d/temp_repo/MyRepository (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
