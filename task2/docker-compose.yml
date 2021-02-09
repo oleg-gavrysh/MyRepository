@@ -1,0 +1,26 @@
+version: '3.1'
+
+services:
+
+
+  myrepo:
+    image: oleggavrysh/myrepo
+    container_name: web-server
+    restart: always
+    ports:
+      - 9999:80
+ 
+
+  java_app:
+    image: jetbrains/teamcity-agent
+    container_name: TeamCity_Build_Agent    
+    restart: always
+    links:
+      - db
+
+
+  db:
+    image: mariadb
+    container_name: mariadb
+    restart: always
+
